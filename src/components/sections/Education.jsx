@@ -3,13 +3,13 @@ import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import styled from "styled-components";
 import { education } from "../../constants";
-import EducationCard from "./Educationcard";
+import EducationCard from "./EducationCard";
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-contnet: center;
-  position: rlative;
+  justify-content: center;
+  position: relative;
   z-index: 1;
   align-items: center;
 `;
@@ -50,6 +50,20 @@ const TimelineWrapper = styled.div`
       width: 100%;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    .vertical-timeline::before {
+      display: none;
+    }
+
+    .vertical-timeline--two-columns .vertical-timeline-element-content {
+      width: 100%;
+    }
+
+    .vertical-timeline-element {
+      margin: 1em 0;
+    }
+  }
 `;
 
 const Wrapper = styled.div`
@@ -65,6 +79,7 @@ const Wrapper = styled.div`
     flex-direction: column;
   }
 `;
+
 const Title = styled.div`
   font-size: 52px;
   text-align: center;
@@ -76,6 +91,7 @@ const Title = styled.div`
     font-size: 32px;
   }
 `;
+
 const Desc = styled.div`
   font-size: 18px;
   text-align: center;

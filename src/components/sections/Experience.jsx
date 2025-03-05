@@ -51,6 +51,20 @@ const TimelineWrapper = styled.div`
       width: 100%;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    .vertical-timeline::before {
+      display: none;
+    }
+
+    .vertical-timeline--two-columns .vertical-timeline-element-content {
+      width: 100%;
+    }
+
+    .vertical-timeline-element {
+      margin: 1em 0;
+    }
+  }
 `;
 
 const Wrapper = styled.div`
