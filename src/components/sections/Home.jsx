@@ -36,6 +36,7 @@ export const Home = () => {
           <div className="flex justify-center mt-10">
             <a
               href="https://github.com/neekunjchaturvedi"
+              target="blank"
               className="bg-blue-500 text-white w-56 py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
             >
               Github

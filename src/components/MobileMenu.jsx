@@ -78,6 +78,18 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       >
         Contact
       </a>
+      <a
+        href="https://drive.google.com/file/d/1syd-ASLY_5wCFqvA4AuRbupC_7qkVX45/view?usp=sharing"
+        target="blank"
+        onClick={() => setMenuOpen(false)}
+        className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+            ${
+              menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+            }        
+    `}
+      >
+        My Resume
+      </a>
     </div>
   );
 };

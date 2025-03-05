@@ -56,6 +56,14 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               {" "}
               Contact{" "}
             </a>
+            <a
+              href="https://drive.google.com/file/d/1syd-ASLY_5wCFqvA4AuRbupC_7qkVX45/view?usp=sharing"
+              className="text-gray-300 hove:text-white transition-colors"
+              target="blank"
+            >
+              {" "}
+              My Resume{" "}
+            </a>
           </div>
         </div>
       </div>
