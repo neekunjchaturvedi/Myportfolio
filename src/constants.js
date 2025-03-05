@@ -253,6 +253,7 @@ export const experiences = [
       "TypeScript",
       "Node Js",
       "Express JS",
+      "ShadCN",
     ],
   },
 
@@ -262,7 +263,7 @@ export const experiences = [
     company: "PoolEdge(StartUP)",
     date: "Nov 2024 - Present ",
     desc: "Integrating unit functions and testing them on wide area of test cases and Managing the Database",
-    skills: ["SQl Alchemy", "HTTP", "Dart"],
+    skills: ["SQl Alchemy", "HTTP", "Dart", "Git/GitHub"],
   },
   {
     id: 2,
