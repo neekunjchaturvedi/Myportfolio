@@ -96,6 +96,7 @@ const ExperienceCard = ({ experience }) => {
         backgroundColor: "rgba(17, 25, 40, 0.83)",
         border: "1px solid rgba(255, 255, 255, 0.125)",
         borderRadius: "6px",
+        paddingLeft: "7px",
       }}
       contentArrowStyle={{
         borderRight: "7px solid  rgba(255, 255, 255, 0.3)",

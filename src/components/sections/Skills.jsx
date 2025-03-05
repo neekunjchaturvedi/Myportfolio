@@ -10,6 +10,7 @@ const Container = styled.div`
   position: rlative;
   z-index: 1;
   align-items: center;
+  padding-x: 10px;
 `;
 
 const Wrapper = styled.div`
@@ -123,7 +124,7 @@ const Skills = () => {
           Skills
         </h2>
 
-        <p className="text-gray-400 mb-10">
+        <p className="text-gray-400 mb-10 px-6 text-center">
           Here are some of my skills on which I have been working on for the
           past 3 years.
         </p>

@@ -12,6 +12,8 @@ const Container = styled.div`
   position: relative;
   z-index: 1;
   align-items: center;
+  margin-top: 50px;
+  padding-x: 10px;
 `;
 
 const TimelineWrapper = styled.div`
@@ -112,6 +114,9 @@ const Education = () => {
         <Desc
           style={{
             marginBottom: "40px",
+            textAlign: "center",
+            paddingLeft: "15px",
+            paddingRight: "15px",
           }}
         >
           My education has been a journey of self-discovery and growth. My
